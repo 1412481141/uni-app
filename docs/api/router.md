@@ -215,7 +215,7 @@ uni.navigateTo({
 });
 
 // 此处是B页面
-uni.navigateTo({
+uni.redirectTo({
 	url: 'C?id=1'
 });
 
